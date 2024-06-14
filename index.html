@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header role="banner">
+    <h1>Bienvenue sur mon blog</h1>
+    <nav role="navigation">
+        <ul class="flex space-x-4">
+            <li><a href="index.html" class="text-blue-500">Accueil</a></li>
+            <li><a href="login.html" class="text-blue-500">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<main role="main" class="p-4">
+    <section id="articles">
+        <article class="mb-4 border-b pb-4">
+            <img src="images/image1.jpg" alt="Description de l'image 1" class="w-full h-48 object-cover">
+            <h2 class="text-xl font-bold mt-2">Titre de l'article 1</h2>
+            <p>Ceci est un résumé de l'article 1.</p>
+            <a href="article1.html" class="text-blue-500">Lire l'article</a> |
+            <a href="article1.html#comments" class="text-blue-500">6 commentaires</a>
+        </article>
+        <!-- Ajouter d'autres articles de la même manière -->
+    </section>
+</main>
+<footer role="contentinfo" class="text-center p-4 bg-gray-200">
+    <p>&copy; 2024 Mon Blog. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
