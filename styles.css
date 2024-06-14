@@ -1,29 +1,115 @@
+/* Styles de base */
 body {
     font-family: Arial, sans-serif;
 }
+
+/* En-tête */
 header {
-    background-color: #f8f9fa;
+    background-color: #1a202c; /* Couleur de fond sombre */
+    color: #f7fafc; /* Couleur du texte clair */
     padding: 1rem;
     text-align: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin-right: 1rem;
 }
+
+nav ul li a {
+    color: #f7fafc; /* Couleur du texte clair */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #2d3748; /* Couleur de fond au survol */
+}
+
+/* Contenu principal */
 main {
     padding: 2rem;
 }
+
 article {
     border: 1px solid #ddd;
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 footer {
-    background-color: #f8f9fa;
+    background-color: #1a202c; /* Couleur de fond sombre */
+    color: #f7fafc; /* Couleur du texte clair */
     text-align: center;
     padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Styles pour contraste élevé */
+.high-contrast {
+    color: #000;
+    background-color: #fff;
+}
+
+.high-contrast a {
+    color: #1a0dab;
+}
+
+
+/* styles.css */
+
+.high-contrast {
+    color: #000;
+    background-color: #fff;
+}
+
+.high-contrast a {
+    color: #1a0dab;
+}
+
+.bg-dark {
+    background-color: #1a202c; /* Gris très foncé pour un bon contraste */
+}
+
+.text-light {
+    color: #f7fafc; /* Texte clair */
+}
+
+.text-dark {
+    color: #1a202c; /* Texte foncé */
+}
+
+.link {
+    color: #0645AD; /* Bleu foncé pour bon contraste */
+    text-decoration: underline; /* Soulignement pour identifier les liens */
+}
+
+.link:hover {
+    color: #0B3D91; /* Bleu encore plus foncé au survol */
+}
+
+nav ul li a {
+    color: #f7fafc !important; /* Couleur du texte clair forcée */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #2d3748; /* Couleur de fond au survol */
+    color: #f7fafc !important; /* Couleur du texte clair forcée au survol */
 }

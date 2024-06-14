@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un paysage pittoresque - Mon Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header role="banner" class="bg-gray-800 text-white p-4">
+    <h1 class="text-3xl font-bold">Un paysage pittoresque</h1>
+    <nav role="navigation" aria-label="Navigation principale">
+        <ul class="flex space-x-4 justify-center mt-4">
+            <li><a href="index.html" class="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-500 transition duration-300">Accueil</a></li>
+            <li><a href="login.html" class="px-4 py-2 bg-green-700 text-white rounded hover:bg-green-500 transition duration-300">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<main role="main" class="p-4 max-w-4xl mx-auto">
+    <button onclick="history.back()" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition duration-300 mb-4">
+        Revenir en arrière
+    </button>
+    <article class="border rounded-lg overflow-hidden shadow-lg">
+        <img src="/images/image1.jpg" alt="Une vue panoramique d'un magnifique paysage naturel avec des montagnes en arrière-plan, un lac calme au centre, et des arbres verdoyants bordant l'eau, évoquant un sentiment de tranquillité et d'aventure." class="w-full h-64 object-cover rounded">
+        <div class="p-4">
+            <h2 class="text-2xl font-bold mt-2">Un paysage pittoresque</h2>
+            <p class="mt-2">Le terme "pittoresque" est souvent utilisé pour décrire des paysages d'une beauté exceptionnelle, souvent dignes d'être immortalisés en peinture. Mais qu'est-ce que cela signifie vraiment et pourquoi certains paysages sont-ils considérés comme particulièrement dignes d'être peints ?</p>
+
+            <h3 class="text-xl font-bold mt-4">Qu'est-ce que le pittoresque ?</h3>
+            <p class="mt-2">Le pittoresque se réfère à une qualité esthétique particulière qui fait qu'un paysage semble digne d'être représenté en peinture. Cela inclut des éléments comme la variété des formes, des couleurs et des textures, ainsi que l'équilibre entre la nature et les éléments artificiels. Un paysage pittoresque évoque souvent des émotions et une admiration profonde pour la beauté naturelle.</p>
+
+            <h3 class="text-xl font-bold mt-4">L'art de capturer le pittoresque</h3>
+            <p class="mt-2">Les artistes cherchent à capturer l'essence du pittoresque en mettant en valeur les aspects les plus frappants et émouvants d'un paysage. Cela peut inclure des montagnes majestueuses, des lacs sereins, des forêts denses, et des ciels dramatiques. L'objectif est de transmettre la beauté et la splendeur du paysage de manière à ce que le spectateur ressente une connexion émotionnelle avec la scène représentée.</p>
+
+            <h3 class="text-xl font-bold mt-4">Ce qui mérite d'être peint</h3>
+            <p class="mt-2">Tous les paysages ne sont pas considérés comme pittoresques, mais ceux qui le sont possèdent généralement certaines qualités spécifiques. Ces qualités peuvent inclure une composition équilibrée, des points de vue intéressants, des éléments naturels impressionnants, et une atmosphère unique. Les paysages qui évoquent des sentiments de tranquillité, de grandeur ou de mystère sont souvent ceux qui inspirent le plus les artistes.</p>
+
+            <h3 class="text-xl font-bold mt-4">Tableau des éléments pittoresques</h3>
+            <table class="min-w-full bg-white mt-4">
+                <thead>
+                <tr>
+                    <th class="py-2 px-4 border">Élément</th>
+                    <th class="py-2 px-4 border">Description</th>
+                    <th class="py-2 px-4 border">Importance</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="border px-4 py-2">Montagnes</td>
+                    <td class="border px-4 py-2">Des montagnes majestueuses offrant des vues impressionnantes.</td>
+                    <td class="border px-4 py-2">Très élevé</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Lac</td>
+                    <td class="border px-4 py-2">Un lac serein reflétant le ciel et les environs.</td>
+                    <td class="border px-4 py-2">Élevé</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Forêt</td>
+                    <td class="border px-4 py-2">Des forêts denses ajoutant de la profondeur et de la texture.</td>
+                    <td class="border px-4 py-2">Modéré</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Ciel</td>
+                    <td class="border px-4 py-2">Un ciel dramatique avec des nuages colorés ou un coucher de soleil.</td>
+                    <td class="border px-4 py-2">Très élevé</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="3" class="py-2 text-center">Tableau des éléments pittoresques à capturer</td>
+                </tr>
+                </tfoot>
+            </table>
+
+            <section id="comments" class="mt-4">
+                <h2 class="text-xl font-bold">Commentaires</h2>
+                <p class="mt-2">Commentaire 1 : Ce paysage est absolument magnifique !</p>
+                <p class="mt-2">Commentaire 2 : J'adore comment les montagnes et le lac se complètent.</p>
+            </section>
+        </div>
+    </article>
+</main>
+<footer role="contentinfo" class="text-center p-4 bg-gray-800 text-white">
+    <p>&copy; 2024 Mon Blog. Tous droits réservés.</p>
+</footer>
+</body>
+</html>

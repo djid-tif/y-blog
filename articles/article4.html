@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critique de livres - Mon Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header role="banner" class="bg-gray-800 text-white p-4">
+    <h1 class="text-3xl font-bold">Critique de livres</h1>
+    <nav role="navigation" aria-label="Navigation principale">
+        <ul class="flex space-x-4 justify-center mt-4">
+            <li><a href="index.html" class="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-500 transition duration-300">Accueil</a></li>
+            <li><a href="login.html" class="px-4 py-2 bg-green-700 text-white rounded hover:bg-green-500 transition duration-300">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<main role="main" class="p-4 max-w-4xl mx-auto">
+    <button onclick="history.back()" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition duration-300 mb-4">
+        Revenir en arrière
+    </button>
+    <article class="border rounded-lg overflow-hidden shadow-lg">
+        <img src="/images/image4.jpg" alt="Une pile de livres variés, certains ouverts, à côté d'une tasse de café fumante posée sur une table en bois, créant une atmosphère chaleureuse et invitante pour la lecture et la détente." class="w-full h-64 object-cover rounded">
+        <div class="p-4">
+            <h2 class="text-2xl font-bold mt-2">Critique de livres</h2>
+            <p class="mt-2">La critique de livres est un art qui consiste à évaluer et à analyser les ouvrages littéraires. Cet article vous présente quelques-uns des meilleurs livres à lire cette année, avec des critiques détaillées pour vous aider à choisir votre prochaine lecture.</p>
+
+            <h3 class="text-xl font-bold mt-4">Les bienfaits de la lecture</h3>
+            <p class="mt-2">Lire régulièrement offre de nombreux avantages, notamment l'amélioration des compétences linguistiques, la réduction du stress, et l'augmentation de la connaissance générale. La lecture stimule également la créativité et l'imagination.</p>
+
+            <h3 class="text-xl font-bold mt-4">Critères de sélection des livres</h3>
+            <p class="mt-2">Pour cette sélection, nous avons pris en compte plusieurs critères, tels que la qualité de l'écriture, la profondeur des personnages, la richesse de l'intrigue, et l'impact émotionnel. Ces critères nous ont permis de vous proposer une liste variée de livres de différents genres.</p>
+
+            <h3 class="text-xl font-bold mt-4">Les meilleurs livres à lire cette année</h3>
+            <p class="mt-2">Voici une liste des livres qui ont retenu notre attention cette année. Chacun de ces ouvrages mérite d'être lu pour ses qualités littéraires exceptionnelles et son potentiel à toucher les lecteurs.</p>
+
+            <h3 class="text-xl font-bold mt-4">Tableau des livres recommandés</h3>
+            <table class="min-w-full bg-white mt-4">
+                <thead>
+                <tr>
+                    <th class="py-2 px-4 border">Titre</th>
+                    <th class="py-2 px-4 border">Auteur</th>
+                    <th class="py-2 px-4 border">Genre</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="border px-4 py-2">Livre 1</td>
+                    <td class="border px-4 py-2">Auteur 1</td>
+                    <td class="border px-4 py-2">Fiction</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Livre 2</td>
+                    <td class="border px-4 py-2">Auteur 2</td>
+                    <td class="border px-4 py-2">Non-fiction</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Livre 3</td>
+                    <td class="border px-4 py-2">Auteur 3</td>
+                    <td class="border px-4 py-2">Mystère</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Livre 4</td>
+                    <td class="border px-4 py-2">Auteur 4</td>
+                    <td class="border px-4 py-2">Science-fiction</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="3" class="py-2 text-center">Tableau des livres recommandés cette année</td>
+                </tr>
+                </tfoot>
+            </table>
+
+            <section id="comments" class="mt-4">
+                <h2 class="text-xl font-bold">Commentaires</h2>
+                <p class="mt-2">Commentaire 1 : J'ai adoré lire ce Livre , il était vraiment captivant !</p>
+                <p class="mt-2">Commentaire 2 : Les critiques m'ont aidé à choisir ma prochaine lecture, merci !</p>
+            </section>
+        </div>
+    </article>
+</main>
+<footer role="contentinfo" class="text-center p-4 bg-gray-800 text-white">
+    <p>&copy; 2024 Mon Blog. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
